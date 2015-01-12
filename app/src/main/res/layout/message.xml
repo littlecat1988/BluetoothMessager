@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    >
+    <ImageView
+        android:layout_width="@dimen/width_icon"
+        android:layout_height="@dimen/height_icon"
+        android:id="@+id/notification_icon"
+        android:layout_marginLeft="@dimen/icon_margin_left"
+        android:layout_marginTop="@dimen/icon_margin_top"
+        />
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/notification_msg"
+            android:textSize="@dimen/content_size"
+            android:layout_marginLeft="@dimen/content_margin_left"
+            android:layout_marginRight="@dimen/content_margin_right"
+            android:layout_marginBottom="@dimen/content_margin_bottom"
+            android:layout_marginTop="@dimen/content_margin_top"/>
+</LinearLayout>
