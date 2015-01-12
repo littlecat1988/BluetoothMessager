@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">蓝牙通知</string>
+    <string name="action_settings">设置</string>
+    <string name="scanning">正在搜索...</string>
+    <string name="select_device">选择连接</string>
+    <string name="none_paired">没有设备匹配</string>
+    <string name="none_found">未发现设备</string>
+    <string name="title_paired_devices">匹配设备</string>
+    <string name="title_other_devices">其它可用设备</string>
+    <string name="button_scan">搜索设备</string>
+
+    <string name="send">发送</string>
+    <string name="not_connected">设备未连接</string>
+    <string name="bt_not_enabled_leaving">蓝牙不可用</string>
+    <string name="title_connecting">连接中...</string>
+    <string name="title_connected_to">已连接: </string>
+    <string name="title_not_connected">未连接</string>
+    <string name="title_activity_device_list">设备列表</string>
+
+
+    <string name="secure_connect">连接设备</string>
+    <string name="insecure_connect">断开连接</string>
+    <string name="clean_list">清除记录</string>
+    <string name="missed_call">未接来电</string>
+
+</resources>
