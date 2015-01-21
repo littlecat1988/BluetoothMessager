@@ -443,6 +443,8 @@ public class BluetoothService {
                         if(temp.substring(0,8).equals(CMD_FIND)){
                             mHandler.obtainMessage(BluetoothMessager.MESSAGE_FIND)
                                     .sendToTarget();
+
+
                         }
                     }
                     if(bytes > 8 && bytes<32){
