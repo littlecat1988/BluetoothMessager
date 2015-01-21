@@ -375,6 +375,7 @@ public class BluetoothMessager extends Activity{
                     LLog.d(TAG, "BT not enabled");
                     Toast.makeText(this, R.string.bt_not_enabled_leaving, Toast.LENGTH_SHORT).show();
                     finish();
+
                 }
         }
     }
